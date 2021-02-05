@@ -5,11 +5,14 @@
 ```
 npm install
 ```
-在本地启动服务器
+运行开发环境
 ```
 npm run dev
 ```
-VuePress 会在 http://localhost:8080 (opens new window)启动一个热重载的开发服务器。
+生产环境构建
+```
+npm run build
+```
 # 目录结构
 
 VuePress 遵循 **“约定优于配置”** 的原则，推荐的目录结构如下：
